@@ -1,0 +1,32 @@
+p {
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(18, 18, 18);
+}
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 15px;
+  margin-left: 5px;
+  border: none;
+}
+.calculator-display {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.number-button {
+  background-color: rgb(169, 169, 169);
+  color: white;
+  font-weight: bold;
+}
+.operator-button {
+  background-color: rgb(248, 143, 0);
+  color: white;
+  font-weight: bold;
+}
