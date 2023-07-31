@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <p class="js-calculator-display calculator-display">0</p>
+    </header>
+    <main>
+      <p>
+        <button onclick="addtoCalculation('7');" class="number-button">
+          7
+        </button>
+        <button onclick="addtoCalculation('8');" class="number-button">
+          8
+        </button>
+        <button onclick="addtoCalculation('9');" class="number-button">
+          9
+        </button>
+        <button onclick="addtoCalculation('/');" class="operator-button">
+          /
+        </button>
+        <button onclick="addtoCalculation('*');" class="operator-button">
+          *
+        </button>
+      </p>
+      <p>
+        <button onclick="addtoCalculation('4');" class="number-button">
+          4
+        </button>
+        <button onclick="addtoCalculation('5');" class="number-button">
+          5
+        </button>
+        <button onclick="addtoCalculation('6');" class="number-button">
+          6
+        </button>
+        <button onclick="addtoCalculation('+');" class="operator-button">
+          +
+        </button>
+        <button onclick="addtoCalculation('-');" class="operator-button">
+          -
+        </button>
+      </p>
+      <p>
+        <button onclick="addtoCalculation('3');" class="number-button">
+          3
+        </button>
+        <button onclick="addtoCalculation('2');" class="number-button">
+          2
+        </button>
+        <button onclick="addtoCalculation('1');" class="number-button">
+          1
+        </button>
+        <button onclick="addtoCalculation('%');" class="operator-button">
+          %
+        </button>
+        <button onclick="addtoCalculation('^');" class="operator-button">
+          ^
+        </button>
+      </p>
+      <p>
+        <button onclick="addtoCalculation('0');" class="number-button">
+          0
+        </button>
+        <button onclick="addtoCalculation('.');" class="number-button">
+          .
+        </button>
+        <button onclick="calculate(calculation);" class="number-button">
+          =
+        </button>
+        <button onclick="addtoCalculation('\(')" class="operator-button">
+          (
+        </button>
+        <button onclick="addtoCalculation('\)')" class="operator-button">
+          )
+        </button>
+      </p>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
